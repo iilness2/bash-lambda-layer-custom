@@ -1,6 +1,10 @@
 # Custom lambda layer for Bash
 This is custom bash-lambda-layer for include cloud-nuke executable and publish this layer only at ap-southeast-1 region(singapore).
 
+Note:
+- Cloud-nuke using version v0.1.7
+- aws-cli (version should be more than >1.16.205)
+
 more information for [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke)
 
 more information for [bash-lambda-layer](https://github.com/gkrizek/bash-lambda-layer)
