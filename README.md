@@ -15,9 +15,11 @@ To build a layer, simply run `make build`. This will create a zip archive of the
 To publish the layer to the public, simply run `make publish`. This will create a new version of the layer from the `export/layer.zip` file (create from the Build step) and give it a global read permission.
 ```
 
-### access this AWS layer at your Lambda function
+### Access this AWS layer at your Lambda function
 - For cloud-nuke
-```you create file with 'sh' extension and copy at `examples/example-cloud-nuke.yml` at your lambda function which already using this custom layer```
+```
+ you create file with 'sh' extension and copy at `examples/example-cloud-nuke.yml` at your lambda function which already using this custom layer
+```
 
 - For awsweeper
 ```
